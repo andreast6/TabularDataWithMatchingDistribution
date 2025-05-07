@@ -1,4 +1,4 @@
-# Structured Synthetic Data Generation: Mirroring statistical tabular data properties.
+# Structured Synthetic Data Generation: Mirroring statistical properties of tabular data.
 
 ## Project Overview  
 This project demonstrates a workflow for generating high-quality synthetic data that mirrors the statistical properties of real-world tabular data (using Lending Club loan data as an example). The workflow leverages clustering-based seed instructions and the Synthetic Data Studio (SDS) API to produce realistic, privacy-compliant synthetic datasets. The process is divided into four core steps:  
