@@ -53,7 +53,7 @@ Processes the original Lending Club loan dataset to generate statistical profile
 **Variables to Customize**  
 - `SamplingFactor`: Controls output size (default `20`)  
 - `NumOfClusters`: Number of clusters for statistical profiling (default `2`)  
-- `CorrelationKeys`: Variables to analyze for correlation patterns  
+- `CorrelationKeys`: Variables to analyze for correlation patterns
 
 **Output**  
 - `SeedsInstructions.json`: Cluster-based statistical profiles for synthetic data generation  
@@ -82,6 +82,8 @@ Uses the seed instructions to generate synthetic data via an API and applies qua
 - `temperature`: Controls diversity (default `1.0`)  
 - `Threshold`: Quality score threshold (default `8`)  
 - `example_path`: Path to example data for pattern learning  
+- `url`: point to the SDS freeform synthesis API
+- `url_eval`: point to the SDS freeform evaluation API
 
 **Output**  
 - `data_tab_separated.csv`: Filtered synthetic data matching original distributions  
