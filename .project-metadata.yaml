@@ -1,0 +1,26 @@
+name: Structured Synthetic Data Generation: Mirroring statistical properties of tabular data.
+description: | 
+  Once all the initial setup steps are completed, follow the readme instructions and run all steps 0-3 to generate structured Synthetic Data that mirrors the statistical properties of tabular data.
+author: Andreas Tsiartas
+specification_version: 1.0
+prototype_version: 1.0
+date: "2025-05-06"
+
+
+
+runtimes:
+  - editor: JupyterLab 
+    kernel: Python 3.10
+    edition: Standard 
+
+## Below are some sample tasks based on some of the most popular aspects of AMP creation.
+tasks:
+
+  ## SESSION related AMP snippet
+  - type: run_session
+    name: Install Dependencies
+    script: 0_session-install-dependencies/install-dependencies.py
+    short_summary: Install Requirements and Dependencies
+    kernel: python3
+    cpu: 2
+    memory: 4
