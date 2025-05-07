@@ -1,4 +1,4 @@
-name: Structured Synthetic Data Generation: Mirroring statistical properties of tabular data.
+name: Structured Synthetic Data Generation - Mirroring statistical properties of tabular data.
 description: | 
   Once all the initial setup steps are completed, follow the readme instructions and run all steps 0-3 to generate structured Synthetic Data that mirrors the statistical properties of tabular data.
 author: Andreas Tsiartas
