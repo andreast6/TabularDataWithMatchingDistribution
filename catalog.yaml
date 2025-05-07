@@ -1,0 +1,26 @@
+name: Structured Synthetic Data Generation: Mirroring statistical properties of tabular data.
+
+entries:
+  - title: Structured Synthetic Data Generation: Mirroring statistical properties of tabular data.
+    label: StructuredSyntheticDataGeneration
+    short_description: |
+        This project demonstrates a workflow for generating high-quality synthetic tabular data using clustering-based seed instructions and the Synthetic Data Studio (SDS) API, ensuring statistical fidelity to real-world Lending Club loan data while preserving privacy. 
+    long_description: |
+        The project provides an approach to structured synthetic data generation, leveraging clustering to create statistical profiles (seed instructions) from real loan data, which guide a large language model (LLM) via the SDS API to produce realistic synthetic records. The workflow includes data cleaning, cluster-based feature engineering, synthetic data validation through LLM-based evaluation, and rigorous statistical comparison (e.g., KL divergence, correlation analysis) between synthetic and original datasets. By enforcing formatting rules, cross-column consistency, and domain-specific constraints, the pipeline balances data realism with privacy compliance, enabling safe use cases like model training or analysis without exposing sensitive information. The result is a reusable framework adaptable to diverse tabular datasets, with customizable parameters for model selection, quality thresholds, and evaluation criteria.
+    long_description_html: |
+        The project provides an approach to structured synthetic data generation, leveraging clustering to create statistical profiles (seed instructions) from real loan data, which guide a large language model (LLM) via the SDS API to produce realistic synthetic records. The workflow includes data cleaning, cluster-based feature engineering, synthetic data validation through LLM-based evaluation, and rigorous statistical comparison (e.g., KL divergence, correlation analysis) between synthetic and original datasets. By enforcing formatting rules, cross-column consistency, and domain-specific constraints, the pipeline balances data realism with privacy compliance, enabling safe use cases like model training or analysis without exposing sensitive information. The result is a reusable framework adaptable to diverse tabular datasets, with customizable parameters for model selection, quality thresholds, and evaluation criteria.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
+    image_path: >-
+      https://raw.githubusercontent.com/andreast6/TabularDataWithMatchingDistribution/refs/heads/main/assets/TabularDataGeneration.jpg
+    tags:
+      - Synthetic data
+      - Structured data
+      - Inference
+      - Private data
+      - Knowledge Distillation
+      - Clustering
+    git_url: "https://github.com/andreast6/TabularDataWithMatchingDistribution.git"
+    is_prototype: true
+    is_new: true
