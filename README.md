@@ -1,4 +1,4 @@
-# Synthetic-Structured Data Generation: Preserving statistical distribution of source data.
+# Synthetic-Structured Data Generation: Preserving Statistical Distribution of Source Data.
 
 ## Project Overview  
 This project demonstrates a workflow for generating high-quality synthetic data that mirrors the statistical properties of real-world tabular data (using Lending Club loan data as an example). The workflow leverages clustering-based seed instructions and the Synthetic Data Studio (SDS) API to produce realistic, privacy-compliant synthetic datasets. The process is divided into four core steps:  
